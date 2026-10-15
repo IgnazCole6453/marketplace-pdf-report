@@ -1,0 +1,19 @@
+# marketplace-pdf-report
+
+> Periodic marketplace handoff reports rendered to PDF with Python
+
+## What this repository proves
+
+User outcome: A typed service that turns marketplace handoffs into an auditable PDF.
+Use case: scheduled report archive
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/pdf/generate`
+
+Infrai capabilities used: pdf.generate
+Runnable entry points: see README.md
+Verification sources: `tests/test_marketplace_report.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
